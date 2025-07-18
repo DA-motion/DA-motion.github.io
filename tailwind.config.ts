@@ -13,7 +13,12 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+        oswald: ["Oswald", "sans-serif"],
+      },
       colors: {
+        // Keep existing shadcn colors for components
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -57,6 +62,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Portfolio specific colors
+        "brand-pink": "#FF2A6D",
+        "dark-bg": "#111111",
+        "dark-section": "#0A0A0A",
+        "light-bg": "#FFFFFF",
+        "light-section": "#F8F9FA",
+        "dark-border": "#333333",
+        "light-border": "#E5E7EB",
       },
       borderRadius: {
         lg: "var(--radius)",
