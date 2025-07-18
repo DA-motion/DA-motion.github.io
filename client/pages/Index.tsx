@@ -252,7 +252,7 @@ export default function Index() {
               onClick={() => scrollToSection("pricing")}
               className="cursor-pointer transition-colors duration-300 hover:text-brand-pink"
             >
-              Цены
+              Ц��ны
             </button>
             <button
               onClick={() => scrollToSection("contact")}
@@ -354,7 +354,7 @@ export default function Index() {
             <span className="text-brand-pink">РАБОТАЕТ</span>
           </h1>
           <p className="text-xl sm:text-lg mb-12 opacity-80">
-            Анимация с фокусом на результат
+            Аним��ция с фокусом на результат!
           </p>
           <div className="animate-bounce">
             <svg
@@ -408,7 +408,7 @@ export default function Index() {
                   дизайн, который запомнится.
                 </p>
                 <p className="font-semibold">
-                  Давайте заставим ваш бренд двигаться в нужном направлении.
+                  Давайте заставим ваш бренд двигаться в нужном нап��авлении.
                 </p>
               </div>
               <button
